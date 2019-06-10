@@ -1,0 +1,38 @@
+{
+  "name": "react-docs-tuts",
+  "version": "1.0.0",
+  "description": "Tutorials from the React Documentation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raydot/react-docs-tuts.git"
+  },
+  "keywords": [
+    "react",
+    "documentation"
+  ],
+  "author": "Dave Kanter",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/raydot/react-docs-tuts/issues"
+  },
+  "homepage": "https://github.com/raydot/react-docs-tuts#readme",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@storybook/addon-actions": "^5.1.3",
+    "@storybook/addon-links": "^5.1.3",
+    "@storybook/addon-notes": "^5.1.3",
+    "@storybook/addons": "^5.1.3",
+    "@storybook/react": "^5.1.3",
+    "babel-loader": "^8.0.6"
+  }
+}
