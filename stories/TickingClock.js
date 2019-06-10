@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
 
-/// AAAGH!  Too tricky to keep working.
 
 class TickingClock (extends Component {
   render() {
@@ -15,9 +14,8 @@ class TickingClock (extends Component {
 }
 
 // Note the syntax.  This should probably be a storybook entry of its own!
-ReactDOM.render(
-  <TickingClock />,
-  document.getElementById('root')
+ReactDOM.render() {
+  return <TickingClock />,
 )
 
 setInterval(tick, 1000)
